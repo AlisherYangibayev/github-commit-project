@@ -25,7 +25,7 @@ namespace github_commit__project
             string telefonJoker3 = Console.ReadLine();
 
             Console.Clear();
-            Console.WriteLine("Hoşgeldiniz " + isim + " " + soyisim);
+            Console.WriteLine("Hoşgeldiniz " + adiniz + " " + soyadiniz);
 
             Console.Write("Kuralları Biliyor Musunuz? : ");
             char kuralCevap = char.Parse(Console.ReadLine().ToUpper());
